@@ -9,7 +9,7 @@
 </head>
 <% int value1 = 0; int value2 = 0; int sum = 0;
 
-try { System.out.println( request.getParameter( "value1" ) + " " + request.getParameter( "value2" ) );
+try { out.print( request.getParameter( "value1" ) + " " + request.getParameter( "value2" ) );
 value1 = Integer.parseInt( request.getParameter( "value1" ) );
 value2 = Integer.parseInt( request.getParameter( "value2" ) );
 
